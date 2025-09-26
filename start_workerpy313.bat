@@ -1,5 +1,5 @@
 ..\.venv\Scripts\python "..\comfyui_repo\main.py" ^
-  --port 8011 ^
+  --port 8010 ^
   --listen ^
   --enable-cors-header ^
   --base-directory "..\comfyui_repo" ^
