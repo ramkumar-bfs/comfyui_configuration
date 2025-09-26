@@ -1,1 +1,13 @@
-.venv_windows_py313\Scripts\python main.py --port 8011 --listen --enable-cors-header --extra-model-paths-config .\extra_model_paths_worker.yaml --disable-smart-memory --force-non-blocking --async-offload 
+..\.venv\Scripts\python "..\comfyui_repo\main.py" ^
+  --port 8011 ^
+  --listen ^
+  --enable-cors-header ^
+  --base-directory "..\comfyui_repo" ^
+  --input-directory "..\comfyui-data\input" ^
+  --output-directory "..\comfyui-data\output" ^
+  --temp-directory "..\comfyui-data\temp" ^
+  --user-directory "..\comfyui-data\user" ^
+  --extra-model-paths-config "..\comfyui_configuration\extra_model_paths_worker.yaml" ^
+  --disable-smart-memory ^
+  --force-non-blocking ^
+  --async-offload
